@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctico de JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="introduccion-js">
+        <h2>1. Introducción a JavaScript</h2>
+        <div id="ejercicio-1-intro">
+            <h3>Ejercicio 1</h3>
+            <p>Crea un script que declare tres variables: a, b, y c. Asigna a a y b valores numéricos y haz que c sea la suma de a y b. Imprime el resultado en la consola.</p>
+            <button id ="ej1_2">Mostrar Resultado</button>
+            
+        </div>
+        <div id="ejercicio-2-intro">
+            <h3>Ejercicio 2</h3>
+            <p>Escribe un programa que pida al usuario su nombre y lo almacene en una variable. Luego, imprime un saludo en la consola que incluya el nombre del usuario.</p>
+            <input type="text" id="nombreUsuario" placeholder="Escribe tu nombre">
+            <button id = "saludar">Push me</button>
+          </div>
+    </section>
+
+    <section id="operadores-logicos">
+        <h2>2. Operadores Lógicos y Condicionales</h2>
+        <div id="ejercicio-1-logicos">
+            <h3>Ejercicio 1</h3>
+            <p>Crea un script que declare tres variables: a, b, y c. Asigna a a y b valores numéricos y determina cuál es el mayor. Imprime el resultado en la consola.</p>
+            <input type ="text" id="numbera" placeholder="Ingrese el valor del número a">
+            <input type ="text" id="numberb" placeholder="Ingrese el valor del número a">
+            <button id="enviar">Enviar</button>
+          </div>
+        <div id="ejercicio-2-logicos">
+            <h3>Ejercicio 2</h3>
+            <p>Crea un programa que pida al usuario un número y determine si es par o impar.</p>
+            <input type ="text" id="numberpar" placeholder="Ingrese el valor del número a determinar">
+            <button id="enviar2">Enviar</button>
+        </div>
+    </section>
+
+    <section id="operadores-asignacion">
+        <h2>3. Operadores de Asignación y Bucles</h2>
+        <div id="ejercicio-1-asignacion">
+            <h3>Ejercicio 1</h3>
+            <p>Crea un script que inicialice una variable en 10 y luego use un bucle while para restarle 1 en cada iteración hasta que la variable sea igual a 0. Imprime el valor de la variable en cada iteración.</p>
+            <button id="pushme2">Push me</button>
+          </div>
+        <div id="ejercicio-2-asignacion">
+            <h3>Ejercicio 2</h3>
+            <p>Escribe un programa que utilice un bucle do...while para pedirle al usuario que ingrese un número mayor a 100. El bucle debe repetirse hasta que el usuario ingrese un número mayor a 100.</p>
+            <button id="pushme3">Push me</button>
+          </div>
+    </section>
+
+    <section id="funciones-js">
+        <h2>4. Funciones de JavaScript</h2>
+        <div id="ejercicio-1-funciones">
+            <h3>Ejercicio 1</h3>
+            <p>Escribe una función llamada esPar que reciba un número como parámetro y retorne true si el número es par y false si es impar. Prueba la función con diferentes números.</p>
+            <input type ="text" id="numberispar" placeholder="Ingrese el valor del número a determinar">
+            <button id="enviar3">Enviar</button>
+          </div>
+        <div id="ejercicio-2-funciones">
+            <h3>Ejercicio 2</h3>
+            <p>Crea una función llamada convertirCelsiusAFahrenheit que reciba un valor en grados Celsius y lo convierta a Fahrenheit. Muestra el resultado en la consola.</p>
+            <input type ="text" id="celcius" placeholder="Ingrese el valor de la temperatura en grados Celsius">
+            <button id="enviar4">Enviar</button>
+          </div>
+    </section>
+
+    <section id="objetos-js">
+        <h2>5. Objetos en JavaScript</h2>
+        <div id="ejercicio-1-objetos">
+          <h3>Ejercicio 1</h3>
+          <p>Define un objeto persona con las propiedades nombre, edad, y ciudad. Luego, agrega un método que permita cambiar la ciudad de la persona. Usa el método para actualizar la ciudad y muestra las propiedades actualizadas en la consola.</p>
+          <div id="personaInfo">
+              <p>Nombre: <span id="nombre"></span></p>
+              <p>Edad: <span id="edad"></span></p>
+              <p>Ciudad: <span id="ciudad"></span></p>
+          </div>
+          <input type="text" id="nuevaciudad" placeholder="Ingrese La nueva Ciudad donde vive Tomás">
+          <button id="enviar5">Enviar</button>
+      </div>
+      <div id="ejercicio-2-objetos">
+        <h3>Ejercicio 2</h3>
+        <p>Crea un objeto libro con propiedades titulo, autor, y año. Luego, escribe un método que determine si el libro tiene más de 10 años desde su publicación. Muestra un mensaje en la consola indicando si el libro es antiguo o reciente.</p>
+        <div id="libroInfo">
+            <p>Título: <span id="titulo"></span></p>
+            <p>Autor: <span id="autor"></span></p>
+            <p>Año: <span id="anio"></span></p>
+            <p>Antigüedad: <span id="antiguedad"></span></p>
+        </div>
+        <button id="verificarAntiguedad">Verificar Antigüedad</button>
+    </div>
+</section>
+    </section>
+
+    <section id="arrays-js">
+        <h2>6. Arrays</h2>
+        <div id="ejercicio-1-arrays">
+            <h3>Ejercicio 1</h3>
+            <p>Declara un array llamado numeros con los números del 1 al 10. Escribe un bucle que multiplique cada número por 2 y almacene los resultados en un nuevo array. Muestra el array original y el nuevo array en la consola.</p>
+            <button id="pushme4">Push me</button>
+
+          </div>
+        <div id="ejercicio-2-arrays">
+            <h3>Ejercicio 2</h3>
+            <p>Crea un array vacío llamado pares. Escribe un bucle for que itere hasta 20 y que agregue los primeros 10 números pares al array. Al final, imprime el array pares en la consola.</p>
+            <button id="pushme45">Push me</button>
+          </div>
+    </section>
+
+    <section id="introduccion-dom">
+        <h2>7. Introducción al DOM</h2>
+        <div id="ejercicio-1-dom">
+            <h3>Ejercicio 1</h3>
+            <p>En el HTML muestra tres elementos de tipo <p> y haz un botón que dispare una función y nos permita cambiar todos nuestros elementos de tipo p en nuestra página de color azul.</p>
+            <p>Párrafo 1</p>
+            <p>Párrafo 2</p>
+            <p>Párrafo 3</p>
+            <button id="cambiarColor">Cambiar Color</button>
+            <button id="restaurarColor">Restaurar Color</button>
+        </div>
+        <div id="ejercicio-2-dom">
+            <h3>Ejercicio 2</h3>
+            <p>Crea un formulario simple con un campo de texto y un botón. Escribe un script en JavaScript que muestre una alerta con el valor ingresado en el campo de texto cuando el usuario haga clic en el botón.</p>
+            <form id="formulario">
+                <input type="text" id="inputTexto" placeholder="Escribe algo...">
+                <button id="pushme5">Mostrar Alerta</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="eventos-dom">
+        <h2>8. Eventos en DOM</h2>
+        <div id="ejercicio-1-eventos">
+            <h3>Ejercicio 1</h3>
+            <p>Crea una lista con varios elementos . Escribe un script que agregue un evento click a cada elemento de la lista para que, cuando se haga clic en un li, se muestre su texto en la consola.</p>
+            <ul id="lista">
+                <li>Mickey</li>
+                <li>Mouse</li>
+                <li>ho ho!</li>
+            </ul>
+        </div>
+        <div id="ejercicio-2-eventos">
+            <h3>Ejercicio 2</h3>
+            <p>Crea un campo de texto y un botón en una página HTML. Escribe un script que haga que el botón deshabilite el campo de texto cuando se haga clic en él. Luego, añade otro botón que vuelva a habilitar el campo de texto.</p>
+            <input type="text" id="inputEventos" placeholder="Escribe algo...">
+            <button id="deshabilitarInput">Deshabilitar</button>
+            <button id="habilitarInput">Habilitar</button>
+        </div>
+    </section>
+
+    <section id="localstorage">
+        <h2>9. LocalStorage</h2>
+        <div id="ejercicio-1-localstorage">
+            <h3>Ejercicio 1</h3>
+            <p>Crea un formulario con un campo para el correo electrónico. Escribe un script que guarde el correo en localStorage cuando el usuario envíe el formulario. Si este existe, muéstralo en el DOM debajo del input y también haz un botón de eliminar este elemento, al recargar la página este debe mostrarse si existe.</p>
+            <form id="formularioCorreo">
+                <input type="email" id="inputCorreo" placeholder="Ingresa tu correo...">
+                <button type="button" id="guardarCorreo">Guardar</button>
+            </form>
+            <div id="correoGuardado"></div>
+            <button id="eliminarCorreo">Eliminar Correo</button>
+        </div>
+    </section>
+
+    <script src="Ejercicio1_2.js"></script>
+    <script src="Ejercicio1_3.js"></script>
+    <script src="Ejercicio2_1.js"></script>
+    <script src="Ejercicio2_2.js"></script>
+    <script src="Ejercicio3_1.js"></script>
+    <script src="Ejercicio3_2.js"></script>
+    <script src="Ejercicio4_1.js"></script>
+    <script src="Ejercicio4_2.js"></script>
+    <script src="Ejercicio5_1.js"></script>
+    <script src="Ejercicio5_2.js"></script>
+    <script src="Ejercicio6_1.js"></script>
+    <script src="Ejercicio6_2.js"></script>
+    <script src="Ejercicio7_1.js"></script>
+    <script src="Ejercicio7_2.js"></script>
+    <script src="Ejercicio8_1.js"></script>
+    <script src="Ejercicio8_2.js"></script>
+    <script src="Ejercicio9.js"></script>
+
+</body>
+</html>
